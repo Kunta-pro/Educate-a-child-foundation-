@@ -1,143 +1,69 @@
-/* General reset */
-* {
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: #f4f4f4;
 }
 
 /* Header */
 header {
     background-color: #2a4d3d;
-    padding: 15px 0;
+    color: white;
     text-align: center;
+    padding: 20px;
 }
 
-.navbar a {
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
     color: white;
     text-decoration: none;
-    margin: 0 20px;
     font-size: 18px;
-    font-weight: bold;
-}
-
-.navbar a:hover {
-    color: #fdd835;
-}
-
-/* Hero Section */
-.hero {
-    text-align: center;
-    background-color: #e8f5e9;
-    padding: 50px 20px;
-}
-
-.foundation-title {
-    font-size: 42px;
-    font-weight: bold;
-    color: #2a4d3d;
-    margin-bottom: 20px;
 }
 
 /* Banner */
-.banner {
+.banner img {
     width: 100%;
-    height: 350px;
+    max-height: 300px;
     object-fit: cover;
-    border-radius: 10px;
 }
 
-/* Intro Section */
+/* Introduction */
 .intro {
     text-align: center;
-    padding: 40px;
-    background-color: #ffffff;
+    padding: 50px 20px;
+    background-color: #e0f2f1;
 }
 
 .intro h2 {
-    font-size: 36px;
+    font-size: 30px;
     color: #2a4d3d;
 }
 
-.intro p {
-    font-size: 18px;
-    margin: 20px 0;
-    color: #555;
-}
-
 .btn {
-    text-decoration: none;
-    padding: 12px 24px;
     background-color: #2a4d3d;
     color: white;
-    font-size: 18px;
-    border-radius: 5px;
-    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
     margin-top: 10px;
 }
 
 .btn:hover {
-    background-color: #1e3a2f;
+    background-color: #1e3c2e;
 }
 
-/* Cards Section */
-.cards {
+/* Services Section */
+.services {
     display: flex;
-    justify-content: space-around;
-    margin: 50px auto;
-    max-width: 1200px;
-}
-
-.card {
-    background-color: white;
-    padding: 20px;
-    width: 30%;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-.card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-/* Blog Section */
-.blog {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px auto;
-    max-width: 1200px;
-}
-
-.blog-post,
-.recent-news {
-    width: 48%;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-.blog-post img,
-.news-item img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-/* Footer */
-footer {
-    background-color: #2a4d3d;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 40px;
-}
+ 
